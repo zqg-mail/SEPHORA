@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/jquery-pagination/pagination.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+
+<body>
+    <div id="Top">
+        <div class="top-logged-out">
+            <div class="top-wrapper">
+                <div class="top-content">
+                    <span class="top-content-left top-logged-out">
+                        <a href="javascript:;" class="sephora-logo">欢迎来到丝芙兰</a>
+                        <a class="haha hide" href="./login.html">请登录</a>
+                        <i class="haha" class="top-content-left-saperation"></i>
+                        <a class="haha" href="./register.html">免费注册</a>
+                        <a class="haha" href="/memberLogin">手机验证码登录</a>
+                        <span class="hehe hide">欢迎你:用户名</span>
+                    </span>
+                    <span class="top-content-right cc_cursor"><span>
+                            <span class="my-sephora cc_cursor"></span>
+                            <a class="top-content-right-content" href="/myAccount" target="_blank"
+                                data-omniture="">我的丝芙兰</a>
+                            <span class="top-icon top_angle"></span>
+                            <ul class="top-content-right-hover top_angle" style="left: 0px;">
+                                <li>
+                                    <a href="/myOrderList" target="_blank">我的订单</a>
+                                </li>
+                            </ul>
+                        </span>
+                        <span>
+                            <span class="vip-club"></span>
+                            <a class="top-content-right-content" href="/content/memberclub/">
+                                <!-- react-text: 1850 -->会员俱乐部
+                                <!-- /react-text --></a>
+                        </span>
+                        <span>
+                            <span class="mobile-sephora"></span>
+                            <a class="top-content-right-content mysephora" href="/content/app/">
+                                <!-- react-text: 1854 -->手机丝芙兰
+                                <!-- /react-text -->
+                                <img src="https://ssl1.sephorastatic.cn/soa/pc/images/downQR2.png">
+                            </a>
+                        </span>
+                        <span>
+                            <span>
+                            </span>
+                            <a class="top-content-right-content" href="/content/helpinfo/">
+                                <!-- react-text: 1859 -->帮助中心
+                                <!-- /react-text --></a>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Search">
+        <div class="search-info">
+            <div class="search-info-content clearFix">
+                <div class="search-info-content-logo floatL">
+                    <a href="/"><img src="https://ssl1.sephorastatic.cn/soa/pc/images/sep_top_Logo.png" height="40"
+                            alt=""></a>
+                </div>
+                <div class="search-info-content-searchWrap floatL">
+                    <div class="module-search search-info-content-inputBox">
+                        <div class="module-search-main">
+                            <input type="text" placeholder="国风正当道">
+                            <div class="module-search-focus">
+                                <div class="hot-search-module">
+                                    <p class="hot-search-title">
+                                        <span>热门搜索</span>
+                                    </p>
+                                    <ul>
+                                        <li><a data-omniture="">周周有惊喜</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="browse-history">
+                                    <p class="browse-history-title">
+                                        <span>历史浏览</span>
+                                        <span>下一批</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div class="product-wrap">
+                                                <div class="product_img">
+                                                    <a target="_blank" href="/product/994094.html">
+                                                        <img src="https://ssl1.sephorastatic.cn/products/5/3/5/6/8/8/1_n_09649_350x350.jpg"
+                                                            width="90" height="90" alt="芭比波朗绮幻芭蕾8色眼影盘"
+                                                            title="芭比波朗绮幻芭蕾8色眼影盘" rel="nofollow">
+                                                    </a>
+                                                </div>
+                                                <div class="product_brandEn">
+                                                    <span>BOBBIBROWN</span>
+                                                </div>
+                                                <div class="product_productCN">
+                                                    <a target="_blank" href="/product/994094.html">芭比波朗绮幻芭蕾8色眼影盘</a>
+                                                </div>
+                                                <div class="product_priceV2">
+                                                    <!-- react-text: 2370 -->
+                                                    <!-- /react-text -->
+                                                    <p>￥480.00</p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="module-search-results"></div>
+                        </div>
+                        <div class="module-search-submit">搜索</div>
+                    </div>
+                    <ul class="search-info-content-hotWord">
+                        <a class="" data-omniture="">周周有惊喜</a>
+                </div>
+                <div class="search-info-content-miniCart-wrap floatR ">
+                    <div class="search-info-content-miniCart-main">
+                        <a class="search-info-content-miniCart-main-a" href="/cart" target="_blank">
+                            <em class="shopping-bag"></em>
+                            <!-- react-text: 43 -->
+                            购物袋
+                            <!-- /react-text -->
+                            <span class="shopping-num">0</span>
+                            <!-- react-text: 45 -->
+                            件
+                            <!-- /react-text -->
+                        </a>
+                    </div>
+                    <div class="miniCart_border_top search-info-content-miniCart-list">
+                        <div class="checkoutNotLogin-info-content active">
+                            <div class="notLogin">
+                                <em></em>
+                                <span>购物车内暂时没有商品，登录后将显示您之前加入的商品 </span>
+                                <a href="/login">
+                                    <div>登录</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="checkoutNotGoods-info-content">
+                            <div class="notGoods">
+                                <em></em>
+                                <span>购物车空空的哦~,去看看心仪的商品吧~</span>
+                            </div>
+                        </div>
+                        <div class="search-info-content-miniCart-hidden">
+                            <h3>最新加入的商品</h3>
+                            <ul class="search-info-content-miniCart-itemWrap">
+                                <div class="search-info-content-miniCart-item-titile"><span></span>
+                                    <em></em>
+                                </div>
+                                <div class="search-info-content-miniCart-item-split-line"></div>
+                                <div class="search-info-content-miniCart-item-titile"><span></span>
+                                    <em></em>
+                                </div>
+                                <div class="search-info-content-miniCart-item-split-line"></div>
+                                <div class="search-info-content-miniCart-item-titile"><span></span>
+                                    <em></em>
+                                </div>
+                            </ul>
+                            <div class="search-info-content-miniCart-total">
+                                <span class="search-info-content-miniCart-total-span-first">
+                                    <!-- react-text: 1887 -->
+                                    共
+                                    <!-- /react-text -->
+                                    <em>0</em>
+                                    <!-- react-text: 1889 -->
+                                    件产品
+                                    <!-- /react-text -->
+                                </span>
+                                <span class="search-info-content-miniCart-total-span-second">
+                                    <!-- react-text: 1891 -->
+                                    共计
+                                    <!-- /react-text -->
+                                    <em>0.00</em>
+                                </span>
+                                <a href="/cart" target="_blank" class="search-info-content-miniCart-toCart">去购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="search-info-content-shopping">
+                    <img src="https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/06/banner/navigation_shopping.png"
+                        alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="Navigation">
+        <div class="navigation-info">
+            <div class="navigation-info-content">
+                <div class="navigation-info-content-menu "><a class="navigation-info-content-link"
+                        href="javascript:;">全部商品类目</a>
+                    <div class="navigation-info-content-menu-list">
+                        <!-- <em class="activity-icon heart-left"></em> -->
+                        <!-- 渲染这里 -->
+                        <!-- <em class="activity-icon heart-right"></em> -->
+                    </div>
+                    <!-- 这里加个active 可以弹出 -->
+                    <div class="navigation-info-content-hover">
+                        <div class="navigation-info-content-hover-info">
+                            <div class="navigation-info-content-hover-info-title"><a href="javascript:void(0);"
+                                    target=""></a></div>
+                            <div class="navigation-info-content-hover-info-category">
+                                <ul></ul>
+                                <ul></ul>
+                                <ul class="last"></ul>
+                            </div>
+                            <ul class="navigation-info-content-hover-info-logoAdPosition"></ul>
+                        </div>
+                        <ul class="navigation-info-content-hover-adPosition"></ul>
+                    </div>
+                </div>
+                <div class="navigation-info-content-quick">
+                    <ul class="navigation-info-content-menu-Row">
+                        <li class="listye"><a href="/hot?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95"
+                                target="_blank">畅销榜单</a></li>
+                        <li><a href="/campaign/exclusive20180518/?intcmp=NewHome|Navigation|Animation|Exclusive|20200613"
+                                target="_blank">独家发售</a></li>
+                        <li>
+                            <a href="/gift_set.html" target="_blank">礼物套装</a>
+                        </li>
+                        <li>
+                            <a href="/brand/" target="_blank">全部品牌</a>
+                        </li>
+                        <li><a href="https://wx.sephora.cn/sephora_view/survey_sephora_shop/appointment.html?channel=PC"
+                                target="_blank">预约中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="header container">网站列表页</div> -->
+    <!--
+      filterinfo 筛选信息的面板
+    -->
+    <div class="info filterinfo container">
+      <div class="panel panel-success">
+        <div class="panel-heading">筛选信息</div>
+        <div class="panel-body">
+          <ul>
+            <li class="cateOneBox">
+              <div class="left">一级分类</div>
+              <div class="right">
+                <span class="active">大家电</span>
+                <span>其他</span>
+                <span>内衣</span>
+                <span>海外购</span>
+              </div>
+            </li>
+            <li class="catTwoBox">
+              <div class="left">二级分类</div>
+              <div class="right">
+                <span class="active">全部</span>
+              </div>
+            </li>
+            <li class="catThreeBox">
+              <div class="left">三级分类</div>
+              <div class="right">
+                <span class="active">全部</span>
+              </div>
+            </li>
+            <li class="sortBox">
+              <div class="left">排序方式</div>
+              <div class="right">
+                <span class="active" data-method="综合" data-type="ASC">综合</span>
+                <span data-method="价格" data-type="ASC">价格</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    
+  
+    <div class="goodsList container">
+      <ul class="">
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+        <li class="thumbnail">
+          <img src="https://g-search3.alicdn.com/img/bao/uploaded/i4/i1/2200724510033/O1CN01d3hhJK1C79hCUAXBp_!!2200724510033.jpg_250x250.jpg_.webp" alt="...">
+          <div class="caption">
+            <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+            <p class="price">￥ <span class="text-danger">100.00</span></p>
+            <p>
+              <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+              <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 分页信息面板 -->
+    <div class="info pagiInfo container">
+      <div class="panel panel-warning">
+        <div class="panel-heading">分页信息</div>
+        <div class="panel-body pagination m-style">
+  
+        </div>
+      </div>
+    </div>
+    <!-- <div class="footer container">网站底部</div> -->
+  
+  
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/jquery-pagination/jquery.paginatuon.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/list.js"></script>
+</body>
+
+</html>

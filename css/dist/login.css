@@ -1,0 +1,358 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, li, ol, p, select, span, strong, table, tbody, td, textarea, th, thead, tr, ul {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul, li {
+  list-style: none;
+  vertical-align: bottom;
+  list-style-type: none;
+}
+
+div {
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+  min-width: 320px;
+  line-height: 16px;
+  color: #000;
+  font-size: 12px;
+  -webkit-text-size-adjust: none;
+  font-family: arial, Microsoft YaHei, tahoma, Hiragino Sans GB, \\5b8b体, sans-serif;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+.headerBg {
+  width: 100%;
+  float: left;
+  height: 89px;
+  background-color: #fff;
+}
+
+.headerBg .headerMiddle {
+  margin: auto;
+  width: 1190px;
+  height: 89px;
+  background-color: #fff;
+}
+
+.headerBg .headerMiddle .headerLogo {
+  width: 250px;
+  height: 33px;
+  margin: 28px 0 0;
+  float: left;
+  background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/search_logo.png);
+  cursor: pointer;
+}
+
+.bodyBg {
+  min-width: 1190px;
+  width: 100%;
+  float: left;
+  height: 610px;
+}
+
+.bodyBg .BgPicture {
+  background: transparent no-repeat scroll 50% 0;
+  min-width: 1190px;
+  width: 100%;
+  height: 610px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bodyBg .bodyMiddle {
+  margin: auto;
+  width: 1190px;
+  height: 610px;
+}
+
+.bodyBg .bodyMiddle .imgShow {
+  width: 1190px;
+  height: 610px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bodyBg .bodyMiddle .main {
+  width: 360px;
+  height: 380px;
+  background-color: #fff;
+  margin: 115px 0 0 800px;
+  position: absolute;
+  z-index: 2;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle {
+  margin: auto;
+  width: 300px;
+  height: 380px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .head {
+  float: left;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 26px 0 0;
+  color: #000;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .tip {
+  width: 300px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  font-size: 12px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM.first {
+  width: 300px;
+  height: 32px;
+  float: left;
+  margin-top: 20px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM.first .icon-left {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 6px;
+  position: absolute;
+  background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/LoginIn-icon.png);
+  background-position: 0 -20px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM.first .input-chen {
+  min-width: 300px;
+  line-height: 16px;
+  color: #000;
+  font-size: 12px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM.first .input-chen input {
+  text-indent: 32px;
+  border: 1pxsolid #ccc;
+  height: 30px;
+  padding: 0;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM {
+  width: 300px;
+  height: 32px;
+  float: left;
+  margin-top: 20px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM .icon-left.password {
+  background-position: 0 0;
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 6px;
+  position: absolute;
+  background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/LoginIn-icon.png);
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM .input-chen {
+  width: 300px;
+  float: left;
+  height: 32px;
+  background-color: #fff;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .inputRM .input-chen input {
+  width: 298px;
+  text-indent: 32px;
+  appearance: none;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .WangJiMiMa {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  color: #919191;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .WangJiMiMa p {
+  float: left;
+  cursor: pointer;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .DengLu {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #999;
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .userAgreeBox {
+  margin: 5px 0 0;
+  width: 300px;
+  height: 20px;
+  float: left;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .userAgreeBox input {
+  width: 16px;
+  height: 16px;
+  margin: 2px 2px 0 0;
+  font: 400 13.3333px Arial;
+  float: left;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .userAgreeBox > p {
+  float: left;
+  margin: 1px 0 0;
+  color: #919191;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .userAgreeBox > p:nth-of-type(2) {
+  color: #000;
+  margin: 0 -4px;
+  cursor: pointer;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .userAgreeBox > p:nth-of-type(4) {
+  color: #000;
+  margin: 0 -4px;
+  cursor: pointer;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  color: #919191;
+  text-align: right;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .mixLogin {
+  float: left;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #919191;
+  text-align: right;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .mixLogin ul li {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-top: 13px;
+  cursor: pointer;
+  background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/LoginIn-icon.png);
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .mixLogin ul li:first-of-type {
+  background-position: -56px 0;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .mixLogin ul li:nth-of-type(2) {
+  margin-left: 10px;
+  background-position: -56px -24px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .mixLogin ul li:nth-of-type(3) {
+  margin-left: 10px;
+  background-position: -56px -48px;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register .rightArraw {
+  margin: 22px 0 0 6px;
+  width: 4px;
+  height: 8px;
+  float: right;
+  background-position: -52px 0;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register p {
+  float: right;
+}
+
+.bodyBg .bodyMiddle .main .mainMiddle .Register p .red {
+  color: #f12526;
+  cursor: pointer;
+}
+
+#Footer {
+  float: left;
+  height: 102px;
+  margin-top: 0;
+  min-width: 1190px;
+  width: 100%;
+  background-color: #000;
+}
+
+#Footer .footer_content {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+  background-color: black;
+}
+
+#Footer .footer_content .footer-content-center {
+  padding: 0 22px;
+  color: #6f6f6f;
+}
+
+#Footer .footer_content .footer-content-center a {
+  background-repeat: no-repeat;
+  color: #6f6f6f;
+  margin: 0 22px;
+}
+
+#Footer .footer_content .footer-content-center .footer-declaration-id {
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#Footer .footer_content .footer-content-center .footer-declaration-id a {
+  font-size: 14px;
+}
+
+#Footer .footer_content .footer-content-center .footer-declaration-id .footer-records {
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/footer-redords-icon.png);
+}
+
+/*# sourceMappingURL=login.css.map */

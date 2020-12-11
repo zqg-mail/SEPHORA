@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="SephoraRegister clearFix">
+        <!-- 头部 -->
+        <div class="HeaderBg cc_cursor">
+            <div class="HeaderMiddle cc_cursor">
+                <div class="HeaderLogo"></div>
+                <span>欢迎注册</span>
+                <div class="goSephoraLogin">
+                    <p>已有账号？</p>
+                    <ul>
+                        <li><a href="./login.html">立即登陆</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 中间部分 -->
+        <div class="BodyBg">
+            <div class="BodyMiddle clearFix cc_cursor">
+                <div class="SephoraRegisterBodyMainForm mt64 ml80 clearFix cc_cursor">
+                    <div class="PhoneStepFirst">
+                        <div class="errorTip"></div>
+                        <div class="errorTip"></div>
+                        <p>账号</p>
+                        <div class="SepBaseInput-chen" style="width:300px;">
+                            <input type="text" placeholder="请输入你的手机号" name="name" value="" style="width: 298px;">
+                            <span class="spanspan"></span>
+                        </div>
+                        
+                        <div class="errorTip"></div>
+                        <p>输入密码</p>
+                        <div class="SepBaseInput-chen" style="width: 300px;">
+                            <input type="password" placeholder="8-16位大小写字母、数字和特殊符号的组合" name="pwd1" value="" style="width: 298px;">
+                            <div class="spanspan" name="pwd1Span"></div>
+                        </div>
+                        <div class="errorTip cc_cursor"></div>
+                        <p>确认密码</p>
+                        <div class="SepBaseInput-chen" style="width: 300px;">
+                            <input type="password" placeholder="请再次输入密码" value="" name="pwd2" style="width: 298px;">
+                            <span class="spanspan"></span>
+                        </div>
+                        <div class="errorTip"></div>
+                        <p>验证码</p>
+                        <div class="SepBaseInput-chen" style="width: 300px;">
+                            <input type="text" placeholder="" name="vc" value="" style="width: 298px;">
+                        </div>
+                        <div id="vc" class="validation-image cc_pointer"></div>
+                        <div class="errorTip"></div>
+                        <button class="confirmButton2">同意条款并注册</button>
+                        <div class="readAndChange cc_cursor">
+                            <input type="checkbox" class="userArgeeCheck" value="on">
+                            <p>已阅读</p>
+                            <p>《丝芙兰用户服务协议》</p>
+                            <p>和</p>
+                            <p>《丝芙兰隐私政策》</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="Footer">
+            <div class="footer_content">
+                <ul class="footer-content-center">
+                    <li class="footer-declaration-id cc_cursor">
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602003121" target="_blank" class="footer-records cc_pointer">沪公网安备 31010602003121号</a>
+                        <a href="http://www.miibeian.gov.cn" title="中国互联网电子商务诚信示范企业认证书" target="_blank" rel="nofollow">ICP备案序号:沪ICP备05026645号</a>
+                        <a href="https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2019/02/banner/food_license.jpg" title="食品经营许可证" target="_blank" rel="nofollow">食品经营许可证</a>
+                        <a href="/content/usage/" title="网站使用条款" target="_blank" rel="nofollow">网站使用条款</a>
+                        <a href="/content/declaration/" title="严正声明" target="_blank" rel="nofollow">严正声明</a>
+                    </li>
+                    <li class="footer-declaration-info cc_cursor">本网站隶属于丝芙兰（上海）化妆品销售有限公司
+                        <span>
+                            <a class="footer-declaration-info-text" target="_blank" href="https://s1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/12/banner/business-license_pic.jpg" title="企业法人营业执照" rel="nofollow">企业法人营业执照</a>
+                    </span>
+                    <a class="footer-declaration-info-text cc_pointer" target="_blank" href="https://www.sephora.cn/campaign/prepaidcard20190113/" title="预付卡信息对接唯一标示:310101F5201530100309" rel="nofollow">预付卡信息对接唯一标识 : 310101F5201530100309</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/jquery/jquery.min.js "></script>
+    <script src="./assets/jquery-validation/jquery.validate.min.js"></script>
+    <script src="./assets/jquery-validation/localization/messages_zh.min.js"></script>
+    <script src="./js/register.js"></script>
+    <script src="./js/public.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,654 @@
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, li, ol, p, select, span, strong, table, tbody, td, textarea, th, thead, tr, ul {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    min-width: 320px;
+    line-height: 16px;
+    color: #000;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+    font-family: arial,Microsoft YaHei,tahoma,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.capacityElse>.boxList {
+    float: left;
+    margin-left: 40px;
+    width: 600px;
+}
+div {
+    margin: 0 auto;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.capacityElse>.boxList {
+    float: left;
+    margin-left: 40px;
+    width: 600px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.capacityElse>.boxList>.now {
+    margin-top: -12px;
+    margin-left: -60px;
+    color: #000;
+    box-shadow: inset 0 0 0 2px #000;
+    -moz-box-shadow: inset 0 0 0 2px #000;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.capacityElse>.boxList>li {
+    float: left;
+    height: 26px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.capacityElse {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.SepProductDetail>.mainCenter>.productImageChange {
+    float: left;
+    width: 320px;
+    height: 400px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.imgOrVideo {
+    float: left;
+    width: 320px;
+    height: 320px;
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.imgOrVideo>.bigIcon {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    background-position: -24px 0;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.imgOrVideo>.picture {
+    width: 320px;
+    height: 320px;
+}
+.magnifier-container, .magnifier-initial {
+    margin: 0;
+    background: hsla(0,0%,100%,0);
+    width: 320px;
+    height: 320px;
+}
+.magnifier-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.magnifier-initial {
+    position: relative;
+    cursor: crosshair;
+}
+.magnifier-container, .magnifier-initial {
+    margin: 0;
+    background: hsla(0,0%,100%,0);
+    width: 320px;
+    height: 320px;
+}
+.magnifier-cover-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 320px;
+    height: 320px;
+    opacity: 0;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule {
+    float: left;
+    width: 320px;
+    height: 50px;
+    margin-top: 30px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow {
+    float: left;
+    height: 50px;
+    width: 35px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .leftArrow.cant {
+    background-position: -60px -38px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .leftArrow {
+    margin: 15px 0 0 4px;
+    float: left;
+    width: 11px;
+    height: 20px;
+    background-position: -60px -18px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .leftArrow{
+    background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/PDP-ICON.png);
+    content: "";
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>ul.picture>.noOpacity {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>ul.picture>li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    opacity: .5;
+}
+li {
+    list-style: none;
+    vertical-align: bottom;
+    list-style-type: none;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>ul.picture>li>img {
+    cursor: pointer;
+    float: left;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow {
+    float: left;
+    height: 50px;
+    width: 35px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .rightArrow.cant {
+    background-position: -24px -56px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .rightArrow {
+    margin: 15px 0 0 20px;
+    float: left;
+    width: 11px;
+    height: 20px;
+    background-position: -24px -36px;
+}
+.SepProductDetail>.mainCenter>.productImageChange>.controlModule>.Arrow .rightArrow{
+    background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/PDP-ICON.png);
+    content: "";
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture {
+    float: left;
+    width: 830px;
+    margin-left: 40px;
+}
+.clearFix {
+    zoom: 1;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox {
+    float: left;
+    width: 650px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox>h1 {
+    font-weight: 500;
+    width: 100%;
+    float: left;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #000;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox>h1>p {
+    float: left;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox>p:first-of-type {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #000;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox>p:nth-of-type(2) {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #666;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.testBox>p {
+    width: 100%;
+    float: left;
+}
+.clearFix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.title>.logo {
+    float: right;
+    cursor: pointer;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price {
+    float: left;
+    width: 100%;
+    height: 24px;
+    margin-top: 19px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>p.one {
+    margin-top: 3px;
+    color: #666;
+    font-size: 12px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>p.two {
+    margin-left: 40px;
+    margin-top: 3px;
+    color: #000;
+    font-size: 14px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>p.three {
+    color: #000;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>p {
+    float: left;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>ul {
+    /* float: left; */
+    /* margin-left: 20px; */
+    margin-top: -20px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>ul>.newTag {
+    background-color: red;
+    color: #fff;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>ul>li {
+    float: left;
+    margin-left: 10px;
+    width: 36px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>ul>.exclusiveSephora {
+    background-color: #2cbeff;
+    color: #fff;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.price>p.eight {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    width: 220px;
+    text-align: right;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity {
+    float: left;
+    width: 830px;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall {
+    float: left;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>p.title {
+    float: left;
+    color: #666;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList {
+    /* float: left;
+    margin-left: 40px; */
+    margin-bottom: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li {
+    width: 640px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .type {
+    color: #e00;
+    float: left;
+    height: 18px;
+    border: 1px solid #e00;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 1px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .main {
+    letter-spacing: 1px;
+    color: #474747;
+    margin-left: 50px;
+    line-height: 20px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-info {
+    display: inline-block;
+    width: 68px;
+    height: 13px;
+    border: 1px solid #eee;
+    position: absolute;
+    padding: 2 3 6 6;
+    right: -125px;
+    top: 2px;
+    cursor: pointer;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-info>.promotion-icon-top {
+    background-position: -40px -18px;
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    margin: 7px 0 0 5px;
+    background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/PDP-ICON.png);
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info {
+    display: block;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
+    position: absolute;
+    background-color: #fff;
+    z-index: 999;
+    right: -125px;
+    top: 30px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-i {
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    background: url(https://ssl1.sephorastatic.cn/soa/pc/images/Triangle.png) no-repeat;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body {
+    padding: 20px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-title {
+    margin-bottom: 14px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-title>.promotion-popup-info-content-body-title-present {
+    display: inline-block;
+    color: #e00;
+    border: 1px solid #e00;
+    padding: 1 5;
+    margin-right: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-title>.promotion-popup-info-content-body-title-text {
+    font-size: 12px;
+    font-family: SourceHanSansCN-Light;
+    color: #333;
+    line-height: 18px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product {
+    margin-top: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-title {
+    font-size: 12px;
+    font-family: SourceHanSansCN-Normal;
+    color: #333;
+    line-height: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list {
+    height: 138px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-list-left {
+    width: 40px;
+    height: 128px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 56px;
+    cursor: pointer;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-list-left>.list-left-icon {
+    display: inline-block;
+    width: 11px;
+    height: 22px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul {
+    display: inline-block;
+    min-width: 131px;
+    max-width: 513px;
+    overflow: hidden;
+    height: 128px;
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container {
+    height: 128px;
+    display: inline-block;
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div {
+    margin-right: 40px;
+    display: inline-block;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top {
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>img {
+    width: 77px;
+    height: 82px;
+    margin-left: 29px;
+    background-position: 0 0;
+    background-size: cover;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>.promotion-popup-info-content-body-product-top-status {
+    display: inline-block;
+    width: 77px;
+    position: absolute;
+    left: 29px;
+    top: 65px;
+    background-color: #999;
+    text-align: center;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>span {
+    display: inline-block;
+    margin-left: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-bottom {
+    width: 131px;
+    margin-top: 6px;
+    overflow: hidden;
+    display: inline-block;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-bottom>span {
+    height: 31px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div {
+    margin-right: 40px;
+    display: inline-block;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top {
+    position: relative;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>img {
+    width: 77px;
+    height: 82px;
+    margin-left: 29px;
+    background-position: 0 0;
+    background-size: cover;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>.promotion-popup-info-content-body-product-top-status {
+    display: inline-block;
+    width: 77px;
+    position: absolute;
+    left: 29px;
+    top: 65px;
+    background-color: #999;
+    text-align: center;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-top>span {
+    display: inline-block;
+    margin-left: 10px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-bottom {
+    width: 131px;
+    margin-top: 6px;
+    overflow: hidden;
+    display: inline-block;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-ul>.promotion-popup-info-content-body-product-ul-container>.promotion-popup-info-content-body-product-ul-div>.promotion-popup-info-content-body-product-bottom>span {
+    height: 31px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.activity>.bigOrSmall>.mainList>li .promotion .promotion-popup-info>.promotion-popup-info-content-body>.promotion-popup-info-content-body-product>.promotion-popup-info-content-body-product-list>.promotion-popup-info-content-body-product-list-right>.list-right-icon {
+    display: inline-block;
+    width: 11px;
+    height: 22px;
+}
+.capacityElse {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.title {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+.boxList {
+    float: left;
+    margin-left: 40px;
+    width: 600px;
+}
+.now {
+    color: #000;
+    box-shadow: inset 0 0 0 2px #000;
+    -moz-box-shadow: inset 0 0 0 2px #000;
+}
+.now>i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.numberAndLimit>.number>.numberBox>.txt20 {
+    text-indent: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.number {
+    float: left;
+    width: 68px;
+    height: 39px;
+    margin: 0 20px 0 64px;
+    border: 1px solid #ddd;
+}
+.numberBox {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    width: 48px;
+    border-right: 1px solid #ddd;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+.arrow {
+    /* display: flex;
+    flex-direction: column; */
+    float: left;
+    width: 19px;
+    height: 39px;
+}
+.curPoint {
+    cursor: pointer;
+}
+.icon1 {
+    margin: 7px 0 0 4px;
+    float: left;
+    width: 10px;
+    height: 6px;
+    background-position: -50px -18px;
+    background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/PDP-ICON.png);
+    content: "";
+    margin-bottom: 5px;
+}
+.bottomArrow {
+    float: left;
+    width: 19px;
+    height: 19px;
+}
+.icon2 {
+    margin: 7px 0 0 4px;
+    float: left;
+    width: 10px;
+    height: 6px;
+    background-position: -40px -42px;
+    background-image: url(https://ssl1.sephorastatic.cn/soa/pc/images/PDP-ICON.png);
+    content: "";
+}
+.limit {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    color: #474747;
+    font-size: 12px;
+}
+.fourButton {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.noNumber {
+    float: left;
+    width: 64px;
+    height: 41px;
+}
+.yes {
+    background-color: #e00;
+    cursor: pointer;
+}
+.addCartButton>p {
+    float: left;
+    margin-left: 35px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 12px;
+}
+.addCartButton>.icon {
+    width: 16px;
+    height: 21px;
+    background-position: -24px -16px;
+    float: left;
+    margin: 10px 0 0 9px;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.fourButton>.addCartButton , .yes {
+    background-color: #e00;
+    cursor: pointer;
+}
+.SepProductDetail>.mainCenter>.ProductMainMixture>.fourButton>.addCartButton {
+    float: left;
+    margin-right: 10px;
+    width: 175px;
+    height: 40px;
+}
+.addCartButton>p {
+    float: left;
+    margin-left: 35px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 12px;
+}
+.addCartButton>p {
+    text-align: center;
+}
+.addCartButton>.icon {
+    width: 16px;
+    height: 21px;
+    background-position: -24px -16px;
+    float: left;
+    margin: 10px 0 0 9px;
+}

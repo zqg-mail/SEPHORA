@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div>
+        <!-- 头部位置 -->
+        <div class="headerBg">
+            <div class="headerMiddle">
+                <div class="headerLogo"></div>
+            </div>
+        </div>
+        <!-- 中心位置 -->
+        <div class="bodyBg">
+            <div class="BgPicture" style="background-image: url(https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2020/11/banner/hp_loginlage_20201119.jpg);"></div>
+            <div class="bodyMiddle">
+                <div class="imgShow"></div>
+                <!-- 登录窗口 -->
+                <div class="main">
+                    <div class="mainMiddle">
+                        <div class="head">登录丝芙兰官网</div>
+                        <div class="tip">
+                            <div class="errorRedIcon hide"></div>
+                            <span class="errorFont hide">请填写邮箱或手机</span>
+                        </div>
+                        <!-- 用户名输入窗口 -->
+                        <form id="login">
+                            <div class="inputRM first">
+                                <div class="icon-left user"></div>
+                                <label for="username" class="input-chen">
+                                    <input type="text" placeholder="手机号/邮箱" style="width: 298px;" name="username" autocomplete="off" id="username">
+                                </label>
+                            </div>
+                            <!-- 密码输入窗口 -->
+                            <div class="inputRM">
+                                <div class="icon-left password"></div>
+                                <label for="password" class="input-chen">
+                                    <input type="password" name="password" placeholder="密码" id="password" autocomplete="off">
+                                </label>
+                            </div>
+                            <div class="WangJiMiMa">
+                                <p>忘记密码？</p>
+                            </div>
+                            <!-- <div class="DengLu">登录</div> -->
+                            <button type="submit" class="login btn btn-success col-sm-5">登录</button>
+                        </form>
+                        <div class="userAgreeBox">
+                            <input type="checkbox" class="userAgreeCheck" value="on" >
+                            <p>已阅读</p>
+                            <p>《丝芙兰用户服务协议》</p>
+                            <p>和</p>
+                            <p>《丝芙兰隐私协议》</p>
+                        </div>
+                        <!-- 注册盒子 -->
+                        <div class="Register">
+                            <div class="mixLogin">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="rightArraw"></div>
+                            <p>
+                                "还没有账号？"
+                                <a href="./register.html" class="red">免费注册</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="Footer">
+            <div class="footer_content">
+                <ul class="footer-content-center">
+                    <li class="footer-declaration-id cc_cursor">
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602003121" target="_blank" class="footer-records cc_pointer">沪公网安备 31010602003121号</a>
+                        <a href="http://www.miibeian.gov.cn" title="中国互联网电子商务诚信示范企业认证书" target="_blank" rel="nofollow">ICP备案序号:沪ICP备05026645号</a>
+                        <a href="https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2019/02/banner/food_license.jpg" title="食品经营许可证" target="_blank" rel="nofollow">食品经营许可证</a>
+                        <a href="/content/usage/" title="网站使用条款" target="_blank" rel="nofollow">网站使用条款</a>
+                        <a href="/content/declaration/" title="严正声明" target="_blank" rel="nofollow">严正声明</a>
+                    </li>
+                    <li class="footer-declaration-info cc_cursor">本网站隶属于丝芙兰（上海）化妆品销售有限公司
+                        <span>
+                            <a class="footer-declaration-info-text" target="_blank" href="https://s1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/12/banner/business-license_pic.jpg" title="企业法人营业执照" rel="nofollow">企业法人营业执照</a>
+                    </span>
+                    <a class="footer-declaration-info-text cc_pointer" target="_blank" href="https://www.sephora.cn/campaign/prepaidcard20190113/" title="预付卡信息对接唯一标示:310101F5201530100309" rel="nofollow">预付卡信息对接唯一标识 : 310101F5201530100309</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/jquery/jquery.min.js "></script>
+    <script src="./assets/jquery-validation/jquery.validate.min.js"></script>
+    <script src="./assets/jquery-validation/localization/messages_zh.min.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/public.js"></script>
+</body>
+</html>
+
